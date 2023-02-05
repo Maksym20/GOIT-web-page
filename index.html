@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>My resume</title>
 </head>
 <body>
     <!-- Wrapper -->
-    <div>
+    <div class="wrapper">
         <!-- Main content -->
-        <div>
+        <div class="main">
             <!-- About me -->
             <div>
-                <h2>Front-End Developer</h2>
-                <h1>Maksym Miroshnychenko</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                <h2 class="about-wokr">Front-End Developer</h2>
+                <h1 class="about-name">Maksym Miroshnychenko</h1>
+                <p class="about-text" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
             </div>
             <!-- Projects -->
             <div>
-                <h3>Projects</h3>
-                <ol>
+                <h3 class="projects-title">Projects</h3>
+                <ol class="projects-list">
                     <li>
                         <a href="https://hellen.p.goit.global/">https://hellen.p.goit.global/</a>
-                        ....................[ HTML5, CSS3 ]
+                        .......................[ HTML5, CSS3 ]
                     </li>
                     <li>
                         <a href="https://cryptohub.p.goit.global/">https://cryptohub.p.goit.global/</a>
@@ -32,18 +36,18 @@
                     </li>
                     <li>
                         <a href="https://kidslike.p.goit.global/">https://kidslike.p.goit.global/</a>
-                        ................ [ React.js, Node.js ]
+                        ....................[ React.js, Node.js ]
                     </li>
                 </ol>
             </div>
             <!-- Work Experience -->
             <div>
-                <h3>Work Experience</h3>
+                <h3 class="work-experience-title">Work Experience</h3>
                 <!-- Company 1 -->
                 <div>
-                    <h4>Front-End Developer Freelance</h4>
-                    <p>September 2019 - up to now | Country</p>
-                    <ul>
+                    <h4 class="work-experience-company">Front-End Developer <span>Freelance</span></h4>
+                    <p class="work-experience-time">September 2019 - up to now <b>|</b> Country</p>
+                    <ul class="work-experience-list">
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua.</li>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                         <li>Risus commodo viverra maecenas.</li>
@@ -52,9 +56,9 @@
                 </div>
                 <!-- Company 2 -->
                 <div>
-                    <h4>Manager Banderogusak & Co.</h4>
-                    <p>March 2015 - October 2018 | Country</p>
-                    <ul>
+                    <h4 class="work-experience-company">Manager <span>Banderogusak & Co.</span></h4>
+                    <p class="work-experience-time">March 2015 - October 2018 <b>|</b> Country</p>
+                    <ul class="work-experience-list">
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
                         <li>Quis ipsum suspendisse ultrices gravida.</li>
                         <li>Risus commodo viverra maecenas.</li>
@@ -62,9 +66,9 @@
                 </div>
                 <!-- Company 3 -->
                 <div>
-                    <h4>Manager BestUA Corp.</h4>
-                    <p>June 2014 - February 2015 | Country</p>
-                    <ul>
+                    <h4 class="work-experience-company">Manager <span>BestUA Corp.</span></h4>
+                    <p class="work-experience-time">June 2014 - February 2015 <b>|</b> Country</p>
+                    <ul class="work-experience-list">
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                         <li>Quis ipsum suspendisse ultrices gravida.</li>
                         <li>Risus commodo viverra maecenas.</li>
@@ -73,25 +77,25 @@
             </div>
             <!-- Education -->
             <div>
-                <h3>Education</h3>
-                <h4>National University of Management</h4>
-                <h4>Management</h4>
-                <p>September 2009 - June 2014 | Country</p>
+                <h3 class="education-title">Education</h3>
+                <h4 class="education-university">National University of Management</h4>
+                <h4 class="education-management">Management</h4>
+                <p class="work-experience-time">September 2009 - June 2014 <b>|</b> Country</p>
             </div>
         </div>
         <!-- Sidebar -->
         <aside>
-            <img src="img/Frame.png" alt="My photo" width="300px">
+            <img class="my-photo" src="img/Frame.png" alt="My photo" width="300px">
             <!-- Contacts -->
-            <div>
-                <h3>Contacts</h3>
-                <p>C: <a href="tel:+388888888888">+38 888 888 88 88</a></p>
-                <p>E: <a href="mailto:t.goitinskiy@gmail.com">t.goitinskiy@gmail.com</a></p>
+            <div class="aside-content">
+                <h3 class="aside-title">Contacts</h3>
+                <p><span class="aside-contacts">C:</span> <a class="number_tel" href="tel:+388888888888">+38 888 888 88 88</a></p>
+                <p><span class="aside-contacts">E:</span> <a href="mailto:t.goitinskiy@gmail.com">t.goitinskiy@gmail.com</a></p>
             </div>
             <!-- Tech Skills -->
-            <div>
-                <h3>Tech Skills</h3>
-                <ul>
+            <div class="aside-content">
+                <h3 class="aside-title">Tech Skills</h3>
+                <ul class="aside-list">
                     <li>HTML5</li>
                     <li>CSS3</li>
                     <li>GIT</li>
@@ -102,9 +106,9 @@
                 </ul>
             </div>
             <!-- Soft Skills -->
-            <div>
-                <h3>Soft Skills</h3>
-                <ul>
+            <div class="aside-content">
+                <h3 class="aside-title">Soft Skills</h3>
+                <ul class="aside-list">
                     <li>Scrum</li>
                     <li>Agile</li>
                     <li>GTD</li>
