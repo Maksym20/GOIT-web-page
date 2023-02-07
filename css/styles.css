@@ -96,6 +96,7 @@ b {
 
 /* Sidebar */
 aside {
+    width: 370px;
     background: #E0EBFE;
     color: #161D2A;
 }
